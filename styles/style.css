@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Libre+Baskerville:wght@400;700&display=swap');
+/* basic elements */
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+body { 
+	line-height: 1.88889;
+	color: #ffffff; 
+	background:url(../images/Desktop_Background\ Image.jpg) no-repeat; 
+	margin: 0; 
+	padding: 0 15%;
+	text-align: right;
+	}
+
+	.page-wrapper {
+		width: 80%;
+		margin: 0 auto;
+		padding-top: 10%;
+	}
+
+
+h1{
+font-family: 'Libre Baskerville';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 110%;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.summary {
+			font-family: 'League Spartan', sans-serif;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 35px;
+			line-height: 110%;
+			text-transform: uppercase;
+			padding-left: 50%;
+		}
+
+banner{
+			text-align: end;
+		}
+
+		
+/* Design Selection*/
+footer {
+	position: absolute; 
+    left: 5%; 
+    top: 30em;
+   
+}
+
+footer a {
+		width:178px;
+		height:46px;
+		left:296px;
+		top:81px;
+		background:#FFFFFF;
+		border-radius:25px;
+		padding: .5rem 1.6em;
+		color:black;
+}
+
+[role="banner"] h2 {
+    visibility: hidden;
+}
+[role="banner"] h1:after {
+    position: absolute;
+    top:40rem;
+    right: 30%;
+}
+[role="banner"] h1:after {
+    content: "The Beauty of Css Design";
+    visibility: visible;
+    display: block;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin: 0.5em 0 3em;
+	padding-top: 12rem;
+}
+.zen-summary{
+	font-family: 'Spartan';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 128.5%;
+}
+
+.preamble{
+	padding-top: 20rem;
+
+}
+[role="article"] h3 {
+    position:relative;
+    top: 5rem;
+    left: 98%;
+    width: 10em;
+    text-align: left;
+    font-size: 1.5rem;
+    letter-spacing: 0; 
+}
+.design-selection{
+	font-family: 'Spartan';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+}
+
+.select {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 100%;
+	float: left;
+}
+
+.design-selection { margin: 3em 0 0; }
+	.design-selection ul { 
+		list-style: none; width: 94%; margin: 0 auto; }
+	.design-selection ul:after { 
+		content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+		.design-selection li { 
+			float: left; width: 50%; font-size: 1.2rem; margin: 2 0 1em; color: #ffffff; text-align: left; padding-top: 2rem;font-family: 'Spartan';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 100%;}
+		.design-selection li:nth-child(odd)
+		 { 
+			width: 47%; padding-right: 3%; clear: left; }
+
+			.design-name { 
+				display: block; font-size: 1.4rem;
+				margin: 2 0 0.24em;position: 
+				relative;color:#FFFFFF;
+				font-family: 'Spartan';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 20px;
+				line-height: 100%;}
+			.design-name:after { background: none; opacity: 0; }
+			.design-name:hover { font-style: bold; color: #3782FF				; }
+			
+			.designer-name { color: #ffffff; font-family: 'Spartan';}
+			.designer-name:after, footer a:after { height: 1px; }
+
+
+	.archives {
+					line-height: 100%;
+					/* or 40px */
+					color: #FFFFFF;
+					transform: rotate(-90deg);
+					position:absolute;
+					width: 207px;
+					height: 68px;
+					left: 317px;
+					top: 3700px;
+	}
+
+	.design-archives li {
+			display:flex; 
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 15px;
+			line-height: 100%;
+			text-align: left;
+			text-decoration-line: underline;
+			color:white;
+	}
+h3 .archives {
+						font-family: 'Inter';
+						font-style: normal;
+						font-weight: 700;
+						font-size: 20px;
+}
+.resources {
+					color: #FFFFFF;
+					transform: rotate(-90deg);
+					position:absolute;
+					width: 207px;
+					height: 68px;
+					left: 317px;
+					top: 3900px;
+}
+zen-resources ul { 
+	list-style: none; margin: 2em 0 4em; text-align: left; 
+}
+.zen-resources ul:before { 
+	content: ""; height: 4px; width: 80px; background: #d5d9dc; display: block; text-align: center; margin: 0 auto 2em; 
+}
+	.zen-resources li { 
+		margin: 0 0 1em 3em; display: flex;
+	}
+	.zen-resources li:first-child { 
+		margin-left: 0; }
+		.zen-resources a {
+			display:flex; color:#FFFFFF; font-family: 'Inter';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 15px;
+			line-height: 100%;
+			text-align: left;
+			text-decoration-line: underline;
+			color: #FFFFFF; }
+		
